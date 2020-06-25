@@ -1,0 +1,393 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css?family=Caladea:700&display=swap');
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-color: rgb(255, 255, 255)!important;
+}
+
+.top-logo img {
+	height: 100px;
+	width: 70px;
+	position: absolute;
+	z-index: 1;
+	background-color: rgb(255, 255, 255);
+	left: 50%;
+}
+
+.footer-logo {
+	height:70px;
+	width:50px;
+}
+
+.contactFormSection {
+	padding: 25px;
+	margin: 0 auto;
+    background-color: rgb(100, 199, 177);
+}
+
+.imageIcon {
+	width: 24px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.top-logo img {
+		height: 50px;
+		width: 30px;
+		position: absolute;
+		left: 1%;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.top-logo {
+		height: 50px;
+		width: 30px;
+		position: relative;
+		left: 1%;
+	}
+}
+
+.display-1 {
+	font-family: 'Caladea';
+	position: absolute;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	-webkit-text-stroke: 2px rgb(0, 0, 0);
+	font-size: 120px!important;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+	padding: 10px;
+	z-index: 1;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.display-1 {
+		font-family: 'Trade Winds';
+		letter-spacing: 2px;
+		position: absolute;
+		top: 3%;
+		text-transform: uppercase;
+		color: black;
+		font-size: 24px!important;
+		text-align: center;
+	}
+}
+
+.product-container {
+	padding: 3em;
+	display: grid;
+	grid-gap: 2em;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.product-container {
+		padding: 0.5em;
+		display: grid;
+		grid-gap: 2em;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	}
+}
+
+.card-img-top {
+	height: 240px;
+	width: 300px;
+	padding-bottom: 5px;
+}
+
+.product {
+	font-family: 'Poppins';
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.card-title {
+	font-size: 22px;
+	font-weight: 550;
+}
+
+.card-text {
+	font-size: 16px;
+}
+
+.container {
+	margin-top: 20px;
+}
+
+.service1 {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+	align-items: center;
+	text-align: center;
+	height: 255px;
+	padding: 10px 10px 10px 10px;
+	margin: 50px 0 10px 0;
+	background-color: royalblue;
+	color: white;
+	vertical-align: baseline;
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+
+.service1:hover {
+	transform: scale(1.1);
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.school-icon {
+	height: 80px;
+}
+
+.police-icon {
+	height: 80px;
+}
+
+
+/*---landing page---*/
+
+.carousel-inner {
+	height: 100vh;
+}
+
+.slide {
+	padding: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.slide {
+		height: 38vh;
+		padding: 0;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.card-body {
+		height: 11rem;
+		vertical-align: center;
+	}
+}
+
+.card {
+	margin: 0 auto;
+}
+
+.card-group {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.card-group .card {
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.card-group .card img {
+	width: 100%;
+	height: 250px;
+	margin: 0 auto;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.card-group {
+		margin: 0 auto;
+		width: 100%;
+	}
+	.card {
+		margin: 0 auto;
+		width: 100%;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.card-group .card {
+		margin: 0 auto;
+		width: 100%;
+		height: 50%;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.card-group .card img {
+		margin: 0 auto;
+		width: 100%;
+	}
+}
+
+.banner h3 {
+	position: absolute;
+	font-weight: 600;
+	top: 125%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color: rgb(0, 0, 0);
+	text-transform: bold;
+}
+
+.banner h3 span {
+	color: rgb(218, 29, 29);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.banner h3 {
+		display: none;
+	}
+	@media (min-width: 320px) and (max-width: 480px) {
+		.mouse_wave {
+			display: none;
+		}
+	}
+	*,
+	*:before,
+	*:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.mouse_wave {
+		position: absolute;
+		margin: 0 auto;
+		height: 100px;
+		top: 85%;
+		left: 50%;
+	}
+	.scroll_arrows {
+		display: block;
+		width: 5px;
+		height: 5px;
+		-ms-transform: rotate(45deg);
+		/* IE 9 */
+		-webkit-transform: rotate(45deg);
+		/* Chrome, Safari, Opera */
+		transform: rotate(45deg);
+		border-right: 2px solid rgb(0, 0, 0);
+		border-bottom: 2px solid rgb(0, 0, 0);
+		margin: 0 0 3px 4px;
+		width: 16px;
+		height: 16px;
+	}
+	.one {
+		margin-top: 1px;
+	}
+	.one,
+	.two,
+	.three {
+		-webkit-animation: mouse-wave 1s infinite;
+		-moz-animation: mouse-wave 1s infinite;
+	}
+	.one {
+		-webkit-animation-delay: .1s;
+		-moz-animation-delay: .1s;
+		-webkit-animation-direction: alternate;
+	}
+	.two {
+		-webkit-animation-delay: .2s;
+		-moz-animation-delay: .2s;
+		-webkit-animation-direction: alternate;
+		margin-top: -6px;
+	}
+	.three {
+		-webkit-animation-delay: .3s;
+		-moz-animation-delay: .3s;
+		-webkit-animation-direction: alternate;
+		margin-top: -6px;
+	}
+	@-webkit-keyframes mouse-wave {
+		0% {
+			opacity: 0;
+		}
+		50% {
+			opacity: .5;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	@-moz-keyframes mouse-wave {
+		0% {
+			opacity: 0;
+		}
+		50% {
+			opacity: .5;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	@-o-keyframes mouse-wave {
+		0% {
+			opacity: 0;
+		}
+		50% {
+			opacity: .5;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	@keyframes mouse-wave {
+		0% {
+			opacity: 0;
+		}
+		50% {
+			opacity: .5;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	/*---end of landing page---*/
+	/*---fabrics section---*/
+	.fabrics {
+		padding: 1rem 1rem 1rem 1rem;
+	}
+	@media (min-width: 320px) and (max-width: 480px) {
+		.fabrics {
+			padding: 2rem 1rem 0 1rem;
+		}
+	}
+	h1 {
+		font-size: 16px;
+	}
+	@media (min-width: 320px) and (max-width: 480px) {
+		h1 {
+			font-size: 20px!important;
+		}
+	}
+	@media (min-width: 320px) and (max-width: 480px) {
+		.lead {
+			font-weight: 300!important;
+			font-size: 16px!important;
+		}
+	}
+	/*---end of fabrics section---*/
+	/*contact form--*/
+	.button-send {
+		padding: 50px!important;
+		background-color: khaki!important;
+	}
+	/*contact form--*/
+	@media (min-width: 360px) and (max-width: 563.98px) {
+		.mb-4 {}
+	}
+	@media (min-width: 360px) and (max-width: 563.98px) {
+		.footer {
+			height: 295px!important;
+		}
+	}
+}
